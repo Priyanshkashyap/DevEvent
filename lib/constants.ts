@@ -4,7 +4,7 @@ export type EventItem={
     slug:string,
     location:string,
     date:string,
-    time:string
+    time:string // added this entire file from the guy's link but can be done for real time events using ai
 }
 export const events :EventItem[] = [
   {
