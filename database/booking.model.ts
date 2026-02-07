@@ -1,4 +1,4 @@
-import { Schema, model, models, Document, Types, CallbackError } from 'mongoose';
+import { Schema, model, models, Document, Types } from 'mongoose';
 import Event from './event.model';
 
 /**

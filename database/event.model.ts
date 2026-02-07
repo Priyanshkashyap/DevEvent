@@ -1,4 +1,4 @@
-import { Schema, model, models, Document, CallbackError } from 'mongoose';
+import { Schema, model, models, Document } from 'mongoose';
 
 /**
  * TypeScript interface for Event document

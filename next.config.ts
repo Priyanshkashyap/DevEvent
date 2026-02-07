@@ -6,6 +6,14 @@ const nextConfig: NextConfig = {
   experimental: {
     turbopackFileSystemCacheForDev : true, // for significantly fast rcompile times across restarts
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
+  },
   // PostHog reverse proxy configuration
   async rewrites() {
     return [
